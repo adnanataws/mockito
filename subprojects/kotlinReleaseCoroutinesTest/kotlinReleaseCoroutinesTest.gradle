@@ -1,9 +1,9 @@
-import org.jetbrains.kotlin.gradle.dsl.JvmTarget
-import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+// import org.jetbrains.kotlin.gradle.dsl.JvmTarget
+// import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
-plugins {
-    id 'org.jetbrains.kotlin.jvm'
-}
+// plugins {
+//     id 'org.jetbrains.kotlin.jvm'
+// }
 
 // apply from: "$rootDir/gradle/dependencies.gradle"
 // apply from: "$rootDir/gradle/java-test.gradle"
