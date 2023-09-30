@@ -1,6 +1,6 @@
 buildscript {
     repositories {
-        //mavenLocal() //for local testing of mockito-release-tools
+        mavenLocal() //for local testing of mockito-release-tools
         google()
         gradlePluginPortal()
     }
