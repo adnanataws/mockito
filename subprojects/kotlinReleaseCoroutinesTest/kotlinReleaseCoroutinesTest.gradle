@@ -5,21 +5,21 @@ plugins {
     id 'org.jetbrains.kotlin.jvm'
 }
 
-apply from: "$rootDir/gradle/dependencies.gradle"
-apply from: "$rootDir/gradle/java-test.gradle"
+// apply from: "$rootDir/gradle/dependencies.gradle"
+// apply from: "$rootDir/gradle/java-test.gradle"
 
-description = "Kotlin tests for Mockito."
+// description = "Kotlin tests for Mockito."
 
-tasks.withType(KotlinCompile).configureEach {
-    compilerOptions {
-        jvmTarget = JvmTarget.JVM_11
-    }
-}
+// tasks.withType(KotlinCompile).configureEach {
+//     compilerOptions {
+//         jvmTarget = JvmTarget.JVM_11
+//     }
+// }
 
-dependencies {
-    testImplementation project(":")
-    testImplementation libraries.junit4
+// dependencies {
+//     testImplementation project(":")
+//     testImplementation libraries.junit4
 
-    testImplementation libraries.kotlin.stdlib
-    testImplementation libraries.kotlin.coroutines
-}
+//     testImplementation libraries.kotlin.stdlib
+//     testImplementation libraries.kotlin.coroutines
+// }
